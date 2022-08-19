@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8"/>
+<title>Foodstart</title>
+<link rel="stylesheet"  href="style3.css">
+
+
+</head>
+
+<body>
+
+    <div class = "myHeader">
+        <div class="myIndex centerAlign">
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">
+                <div class="logo">
+               
+                   
+                </div>
+            </button>
+            </div>
+        </div>
+        <div class="myMenu centerAlign">
+      
+            <div class="Navigater"> 
+                <ul>
+                    <li ><a href="../index.html">Home</a></li>
+                    <li class="selected"><a href="service.html">Services</a></li>
+                    <li><a href="../Forum/forum.html">Forum</a></li>
+                    <li><a href="../Aboutus/aboutus.html" >About us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mySearch centerAlign">
+            <div class="search">
+                <div class="s1"></div>
+                
+                <p>search</p>
+                <div class="s2"></div>
+                <div class="s3"></div>
+        
+            </div> 
+        </div>
+    </div>
+
+    <div class="title centerAlign topMargin">
+        <h1 sty>DIY Guides </h1>
+        
+    </div>
+    <div class="instruction centerAlign">
+        <p>watch this video to know more about DIY guides</p>
+    </div>
+
+    <div class="mid">
+        
+       <iframe width="250" height="250" src="https://www.youtube.com/embed/uMF8npZN5wE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+    </div>
+  
+    <div class="mid2 ">
+        <div class="e1 element1">
+            <div class="element1o">
+              <p class="leftmargin">  Basic things to know in design</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="mid3 ">
+        <div class="e1 element2">
+            <div class="element2o">
+                <p class="leftmargin"> Basic things in making a logo</p>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="mid4 ">
+        <div class="e1 element3">
+            <div class="element3o">
+                <p class="leftmargin"> All about text</p>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <h1>Contact us</h1>
+        <div class="container">
+            <form action="action_page.php">
+        
+              <input type="text" id="email" name="Email Address" placeholder="Email Address">
+              <br>
+
+              <input type="text" id="title" name="title" placeholder="What's this about?">
+          
+              <br>
+              <textarea id="subject" name="subject" placeholder="Tell us anything.." style="height:200px"></textarea>
+              <br>
+              <input type="submit" value="Submit">
+              <br>
+          
+            </form>
+            <br>
+            <a href="#">Need help?</a>
+
+          </div>
+    </footer>
+</body>
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="logo2">
+        <div class="picture"></div>
+        <h4>FOODSTART</h4>
+        <p>The bridge of foods and visuals</p>
+        <div class="status">
+            <p>Online</p>
+        </div>
+        <div class="pic2">
+            <div class="pic3">
+            </div>
+        </div>
+        <div class="rating">
+            <p>4.5 (42 Reviews)</p>
+        </div>
+        <div class="ep">
+          <p>Edit Profile</p>  
+        </div>
+        <div class="box1">
+            <div class="pbox1"></div>
+            <p>Member Since</p>
+            <p>Jan 2020</p>
+            <div class="pbox2"></div>
+            <p>Last delivery</p>
+            <p>3 months ago</p>
+        </div>
+        <div class="sp">
+            <p>Setting and Privacy</p>  
+          </div>
+          <div class="hs">
+            <p>Help and Support</p>  
+          </div>
+          <a href="../Log/login.html">Log Out</a>
+    </div>
+  </div>
+  
+ 
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "400px";
+      document.getElementById("main").style.marginLeft = "400px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+

@@ -1,0 +1,61 @@
+    
+<dev class="box">	
+    
+    
+    
+    <dev class="Navigater">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Notify</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="form.html">Comment forum</a></li>
+    
+        </ul>
+    
+    
+    
+    </dev>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <dev class="main">
+            <p>Welcome to my website! Here are some things I enjoy.</p>
+            <ul>
+                <li>Web Development</li>
+                <li>Chess</li>
+                <li>Reading</li>
+                <li>Learning</li>
+            </ul>
+    
+            <h2>Favorite Qoutes</h2>
+            
+            <blockquote>
+                <p>Here is a favorite quote of mine</p>
+            </blockquote>
+            <blockquote>
+                <p>...and another </p> 
+            </blockquote>
+    </dev>
+    <aside>
+        <h3>
+            kaisa diya ,hain
+    
+        </h3>
+    <ul>
+        <li>agar</li>
+        <li>tum </li>
+        <li>saath</li>
+    
+    
+    </ul>
+    
+    </aside>
+    </dev>
+    

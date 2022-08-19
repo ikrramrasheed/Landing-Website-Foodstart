@@ -1,0 +1,624 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Navbord
+{
+    margin-top: -80px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.Navigater li {
+    height: 20px;
+    overflow:hidden;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    float: left;
+    padding: 5px 0;
+ }
+.Navigater li.selected,
+.Navigater li:hover{
+    background-color:  #ffc489;
+ }
+
+ .Navigater a {
+    text-align: center;
+    padding:  20px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.Navigater ul {
+    border:2px solid #ffc489;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    text-align: left;
+    padding: 0 ;
+    display: inline-block;
+}
+
+body{
+    height: 100%;
+    background-image: url("../b2.jpg");
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.logo{
+
+    width:25px;
+    height:25px;
+    filter: invert();
+    background-image:url("menu.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+
+
+.mid h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-bottom:7px;
+    
+}
+.mid{
+    position:absolute;
+    width: 300px;
+    height: 400px;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: -80px 0 0 ;
+    text-align:center;
+}
+.mid p{
+    margin-top:0;
+    color: white;
+    margin-bottom: 60px;
+    
+}
+.search{
+    width:200px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+.search p{
+    width:40%;
+    color: rgb(224, 224, 224);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+    padding-right: 10%;
+}
+.s1{
+    width:20%;
+    padding-right: 5%;
+    background-image: url("s1.png");
+    filter: invert();
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+.s2{
+    width:20%;
+    background-image: url("s2.png");
+    filter: invert();
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+.s3{
+    width:20%;
+    background-image: url("s3.png");
+    filter: invert();
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+
+footer {
+    clear: both;
+    position: absolute;
+    bottom: -150vh;
+    text-align: center;
+    background-color: #58181F;
+    color: white;
+    font-size: 11px;
+    width: 100vw;
+    height: 500px;
+    text-transform: uppercase;
+}
+footer a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration-line: none ;
+}
+.mid a{
+    margin-top: 12vh;
+    width:35%;
+    height: 100%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #ffc489;
+    padding: 0;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+
+
+}
+.mid a:hover{
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+}
+.mid{
+    margin-top: 4vh;
+    width: 60vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.mid p{
+    margin-top: 4vh;
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.videot{
+    width: 100%;
+}
+.title {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 20;
+    margin-top: 8vh;
+    width: 100vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.instruction{
+    color: white;
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+    
+
+
+
+.myHeader{
+    background: rgba(225, 225, 225, .4);
+   
+    padding-top: 5vh;
+    width: 100vw;
+    height: 7.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 9999;
+   position: fixed;
+
+}
+.myIndex {
+    height: 100%;
+    width: 15%;
+}
+.myMenu {
+    height: 100%;
+    width: 70%;
+}
+.mySearch{
+    background: rgba(0, 0, 0, 0.4);
+    height: 50%;
+    width: 10%;
+    border-radius: 30px;
+}
+
+.centerAlign{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+input[type=text], select, textarea {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+    
+  }
+  
+
+  input[type=submit] {
+    background-color: #ffc489;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #ffc489;
+  }
+  
+
+  .container {
+    padding: 20px;
+
+  
+  }
+
+
+.topMargin{
+    margin-top: 20vh;
+}
+
+.mid1c{
+    width: 25%;
+    height: 90%;
+    margin: 2%;
+    border-radius: 15px;
+
+}
+.m2{
+    margin-top:31vh ;
+    height: 10%;
+}
+.m3{
+    margin-top:42vh ;
+    width: 80%;
+    height: 40%;
+    
+    
+}
+.m4{
+    flex-direction: column;
+    margin-top:90vh ;
+    width: 80%;
+    height: 35%;
+}
+
+.bc{
+    background-color: white;
+}
+.line{
+    margin-top:88vh ;
+    width: 18vw;
+    height: 1vh;
+    background-color: #ffc489;
+    margin-left: 41%;
+  
+}
+.l2{
+    margin-top:50vh ;
+  
+}
+.p4{
+    background-image: url("d-s.jpg");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.p1{
+    
+    background-image: url("d-j-d.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p2{
+    
+    background-image: url("cla.JPG");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p3{
+    
+    background-image: url("lsr.jpeg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  /* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: white; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn,input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+  /* The button used to open the sidebar */
+  
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .sidebar h4 {
+    position: relative;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px ;
+  }
+  .picture{
+      width: 70px;
+      height: 70px;
+      background-image:url("back2.jpg");
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 25px 25px 25px 25px;
+      
+  }
+  .logo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+   
+  
+  }
+  .sidebar p {
+    position: relative;
+    color: black;
+    display: block;
+    font-size: 12px;
+    transition: 0.3s;
+    margin-top: 1px;
+    
+  }
+  .status{
+    margin-top: 5px;
+    width: 40px;
+    height: 12px;
+    border: 2px solid rgb(0, 255, 34);
+    border-radius: 25px 25px 25px 25px;
+    margin-bottom: 5px;
+
+  }
+  .status p{
+      color: rgb(0, 255, 34);
+      font-size:11px ;
+      left: 15%;
+      bottom:15%
+  }
+  .pic2{
+      width: 200px;
+      height: 200px;
+      border:1px solid black;
+      background-image: url("userp.png");
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+  }
+  .pic3{
+    width: 35px;
+    height: 30px;
+    margin-left: 90%;
+    margin-top: 90%;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
+    filter: invert(0);
+    background-image: url("userp2.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+.rating{
+    
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 180px;
+    height: 12px;
+    background-image: url("rat.png");
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+}
+.rating p{
+    margin-left:75px ;
+    font-size: 15px;
+}
+.box1{
+    
+    margin-top: 6px;
+    width: 220px;
+    height: 40px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+  
+    
+}
+.pbox1{
+    width: 16px;
+    height: 16px;
+    background-image: url("usern.png");
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: inline-block
+}
+.pbox2{
+    width: 16px;
+    height: 16px;
+    background-image: url("send.png");
+    background-position: left; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    display: inline-block
+}
+.box1 p{
+    font-size: 15px;
+    padding:0;
+    margin-bottom:0;
+    padding-right: 18px;
+    display: inline-block
+}
+.ep{
+    width: 80px;
+    height: 20px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+.ep p{
+   font-size: 12px;
+   margin-top: 4%;
+   margin-left: 15%;
+}
+.sp{
+    margin-top:10px;
+    width: 120px;
+    height: 20px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: gray;
+    margin-bottom: 2px;
+}
+.sp p{
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 6%;
+}
+
+.hs{
+    width: 110px;
+    height: 20px;
+    border-radius: 25px 25px 25px 25px;
+    background-color: gray;
+    margin-bottom: 10px;
+}
+.hs p{
+   font-size: 13px;
+   margin-top: 2%;
+   margin-left: 10%;
+}
+.texta{
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;
+    background: rgba(8, 8, 8, 0.7);
+}

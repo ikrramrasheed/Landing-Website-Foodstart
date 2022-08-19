@@ -1,0 +1,73 @@
+
+body{
+    height: 100%;
+    background-color: rgb(185, 24, 24);
+    height: 500px;
+    
+}
+.first{
+    width:50%;
+    background-color: white;
+    height: 100%;
+    position:absolute;
+    height: 120vh;
+    z-index: 15;
+    text-align:center;;
+    left:0;
+    top:0;
+    padding-left:8vw;
+}
+.name h1{
+    letter-spacing: 1.2px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.name p{
+    padding: 0%;
+    margin-top: 0;
+    font-size: 10px;
+    margin-bottom: 3%;
+}
+.logo{
+    margin-top: 8%;
+    margin-left: 40%;
+    background-image: url("back2.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70px;
+    width: 16%;
+    border-radius: 25px 25px 25px 25px;
+      display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.a1 {
+    width: 60%;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 0px; 
+    margin-bottom: 1px;
+    resize: none;
+    text-indent: 3vw;
+    color: rgb(172, 172, 172);
+    background-color: white;
+    font-size: 15px;
+    background-size: 20px;
+    line-height:60% ;
+    border: 2px solid #ffc489;;
+  }
+
+ 
+ input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+
+    display: inline-block;
+    width: auto;
+}
